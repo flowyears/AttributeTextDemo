@@ -170,6 +170,7 @@ static NSString *const phoneNum = @"15711112222";
     self.aLable.frame = CGRectMake(10, 0, SCREEN_WIDTH - 20, size.height);
     
     [self addSubview:self.aLable];
+     self.contentSize = CGSizeMake(SCREEN_WIDTH, size.height);
 }
 
 #pragma mark - TTTAttributedLabelDelegate
