@@ -1,0 +1,28 @@
+PODS:
+  - TTTAttributedLabel (2.0.0)
+  - YYCategories (1.0.2):
+    - YYCategories/no-arc (= 1.0.2)
+  - YYCategories/no-arc (1.0.2)
+  - YYImage (1.0.1):
+    - YYImage/Core (= 1.0.1)
+  - YYImage/Core (1.0.1)
+  - YYModel (1.0.3)
+  - YYText (1.0.5)
+
+DEPENDENCIES:
+  - TTTAttributedLabel (~> 2.0.0)
+  - YYCategories
+  - YYImage
+  - YYModel
+  - YYText
+
+SPEC CHECKSUMS:
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  YYCategories: 7319e4ba4f4d4dbcec0094abaab540e98f04a65f
+  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+
+PODFILE CHECKSUM: 888038fa19101b259222047dedf824d2c158db97
+
+COCOAPODS: 1.0.0

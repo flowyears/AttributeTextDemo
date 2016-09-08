@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2535D4AB6334348C463890DD /* libPods-AttributeTextDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E614FD0B9C078956160133F /* libPods-AttributeTextDemo.a */; };
 		7D32E61A1D80FE6A0043A8D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6191D80FE6A0043A8D5 /* main.m */; };
 		7D32E61D1D80FE6A0043A8D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E61C1D80FE6A0043A8D5 /* AppDelegate.m */; };
 		7D32E6201D80FE6A0043A8D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E61F1D80FE6A0043A8D5 /* ViewController.m */; };
@@ -15,6 +16,20 @@
 		7D32E6281D80FE6A0043A8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D32E6261D80FE6A0043A8D5 /* LaunchScreen.storyboard */; };
 		7D32E6331D80FE6A0043A8D5 /* AttributeTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6321D80FE6A0043A8D5 /* AttributeTextDemoTests.m */; };
 		7D32E63E1D80FE6A0043A8D5 /* AttributeTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E63D1D80FE6A0043A8D5 /* AttributeTextDemoUITests.m */; };
+		7D32E64C1D8100100043A8D5 /* zuqiu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D32E64B1D8100100043A8D5 /* zuqiu.gif */; };
+		7D32E65A1D81002E0043A8D5 /* AttributeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6501D81002E0043A8D5 /* AttributeScrollView.m */; };
+		7D32E65B1D81002E0043A8D5 /* BaseAttributeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6521D81002E0043A8D5 /* BaseAttributeVC.m */; };
+		7D32E65C1D81002E0043A8D5 /* YYTextViewScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6551D81002E0043A8D5 /* YYTextViewScrollView.m */; };
+		7D32E65D1D81002E0043A8D5 /* YYTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6571D81002E0043A8D5 /* YYTextViewVC.m */; };
+		7D32E65E1D81002E0043A8D5 /* YYTextViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6591D81002E0043A8D5 /* YYTextViewView.m */; };
+		7D32E66A1D8100C20043A8D5 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6681D8100C20043A8D5 /* Utility.m */; };
+		7D32E66D1D8100E70043A8D5 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D32E66B1D8100E70043A8D5 /* EmoticonQQ.bundle */; };
+		7D32E66E1D8100E70043A8D5 /* EmoticonWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D32E66C1D8100E70043A8D5 /* EmoticonWeibo.bundle */; };
+		7D32E6721D8100E70043A8D5 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6711D8100E70043A8D5 /* AppUtility.m */; };
+		7D32E6781D81021C0043A8D5 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6751D81021C0043A8D5 /* DetailVC.m */; };
+		7D32E6791D81021C0043A8D5 /* TTTLabelScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32E6771D81021C0043A8D5 /* TTTLabelScrollView.m */; };
+		A84C6797DC85C409FE40EE73 /* libPods-AttributeTextDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F89E9CA50679B87BCB4947CB /* libPods-AttributeTextDemoUITests.a */; };
+		B1D580ED6D48E246BE91B45F /* libPods-AttributeTextDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC52F7C0BDD7AB8D5278518A /* libPods-AttributeTextDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168CDDD719081D789E365C7B /* Pods-AttributeTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemo/Pods-AttributeTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		18286EC2D6E5A288C56E16C7 /* Pods-AttributeTextDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemoTests/Pods-AttributeTextDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E0BC8F28F1B91E3572A592C /* Pods-AttributeTextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemo/Pods-AttributeTextDemo.release.xcconfig"; sourceTree = "<group>"; };
+		239D2BEC62196461EBD1CC53 /* Pods-AttributeTextDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemoUITests/Pods-AttributeTextDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		393D7AC870E0436B9A18A39B /* Pods-AttributeTextDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemoTests/Pods-AttributeTextDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46AF61987858B516BDE2835B /* Pods-AttributeTextDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttributeTextDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AttributeTextDemoUITests/Pods-AttributeTextDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E614FD0B9C078956160133F /* libPods-AttributeTextDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AttributeTextDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D32E6151D80FE6A0043A8D5 /* AttributeTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttributeTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D32E6191D80FE6A0043A8D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D32E61B1D80FE6A0043A8D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,33 @@
 		7D32E6391D80FE6A0043A8D5 /* AttributeTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributeTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D32E63D1D80FE6A0043A8D5 /* AttributeTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeTextDemoUITests.m; sourceTree = "<group>"; };
 		7D32E63F1D80FE6A0043A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D32E64B1D8100100043A8D5 /* zuqiu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zuqiu.gif; sourceTree = "<group>"; };
+		7D32E64F1D81002E0043A8D5 /* AttributeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeScrollView.h; sourceTree = "<group>"; };
+		7D32E6501D81002E0043A8D5 /* AttributeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeScrollView.m; sourceTree = "<group>"; };
+		7D32E6511D81002E0043A8D5 /* BaseAttributeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAttributeVC.h; sourceTree = "<group>"; };
+		7D32E6521D81002E0043A8D5 /* BaseAttributeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAttributeVC.m; sourceTree = "<group>"; };
+		7D32E6541D81002E0043A8D5 /* YYTextViewScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextViewScrollView.h; sourceTree = "<group>"; };
+		7D32E6551D81002E0043A8D5 /* YYTextViewScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextViewScrollView.m; sourceTree = "<group>"; };
+		7D32E6561D81002E0043A8D5 /* YYTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextViewVC.h; sourceTree = "<group>"; };
+		7D32E6571D81002E0043A8D5 /* YYTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextViewVC.m; sourceTree = "<group>"; };
+		7D32E6581D81002E0043A8D5 /* YYTextViewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextViewView.h; sourceTree = "<group>"; };
+		7D32E6591D81002E0043A8D5 /* YYTextViewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextViewView.m; sourceTree = "<group>"; };
+		7D32E6671D8100C20043A8D5 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		7D32E6681D8100C20043A8D5 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		7D32E6691D8100C20043A8D5 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		7D32E66B1D8100E70043A8D5 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
+		7D32E66C1D8100E70043A8D5 /* EmoticonWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonWeibo.bundle; sourceTree = "<group>"; };
+		7D32E66F1D8100E70043A8D5 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		7D32E6701D8100E70043A8D5 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		7D32E6711D8100E70043A8D5 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		7D32E6741D81021C0043A8D5 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		7D32E6751D81021C0043A8D5 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		7D32E6761D81021C0043A8D5 /* TTTLabelScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTLabelScrollView.h; sourceTree = "<group>"; };
+		7D32E6771D81021C0043A8D5 /* TTTLabelScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTLabelScrollView.m; sourceTree = "<group>"; };
+		7DE1BDEA1D810391004F2FC1 /* YYHiglightTextClickDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHiglightTextClickDelegate.h; sourceTree = "<group>"; };
+		7DE1BDEB1D8103CC004F2FC1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DC52F7C0BDD7AB8D5278518A /* libPods-AttributeTextDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AttributeTextDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E9CA50679B87BCB4947CB /* libPods-AttributeTextDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AttributeTextDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2535D4AB6334348C463890DD /* libPods-AttributeTextDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D580ED6D48E246BE91B45F /* libPods-AttributeTextDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +123,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84C6797DC85C409FE40EE73 /* libPods-AttributeTextDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C94A204B94DC15ECE79F729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E614FD0B9C078956160133F /* libPods-AttributeTextDemo.a */,
+				DC52F7C0BDD7AB8D5278518A /* libPods-AttributeTextDemoTests.a */,
+				F89E9CA50679B87BCB4947CB /* libPods-AttributeTextDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D32E60C1D80FE690043A8D5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				7D32E6311D80FE6A0043A8D5 /* AttributeTextDemoTests */,
 				7D32E63C1D80FE6A0043A8D5 /* AttributeTextDemoUITests */,
 				7D32E6161D80FE6A0043A8D5 /* Products */,
+				8142FF47C4AAC11869DC1107 /* Pods */,
+				6C94A204B94DC15ECE79F729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +165,15 @@
 		7D32E6171D80FE6A0043A8D5 /* AttributeTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D32E64B1D8100100043A8D5 /* zuqiu.gif */,
 				7D32E61B1D80FE6A0043A8D5 /* AppDelegate.h */,
 				7D32E61C1D80FE6A0043A8D5 /* AppDelegate.m */,
 				7D32E61E1D80FE6A0043A8D5 /* ViewController.h */,
 				7D32E61F1D80FE6A0043A8D5 /* ViewController.m */,
+				7DE1BDEA1D810391004F2FC1 /* YYHiglightTextClickDelegate.h */,
+				7D32E6661D8100BA0043A8D5 /* Common */,
+				7D32E6731D81021C0043A8D5 /* TTTAtributeLabel */,
+				7D32E64D1D81002E0043A8D5 /* YYText */,
 				7D32E6211D80FE6A0043A8D5 /* Main.storyboard */,
 				7D32E6241D80FE6A0043A8D5 /* Assets.xcassets */,
 				7D32E6261D80FE6A0043A8D5 /* LaunchScreen.storyboard */,
@@ -118,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				7D32E6191D80FE6A0043A8D5 /* main.m */,
+				7DE1BDEB1D8103CC004F2FC1 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +210,79 @@
 			path = AttributeTextDemoUITests;
 			sourceTree = "<group>";
 		};
+		7D32E64D1D81002E0043A8D5 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				7D32E64E1D81002E0043A8D5 /* YYLabel */,
+				7D32E6531D81002E0043A8D5 /* YYTextView */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		7D32E64E1D81002E0043A8D5 /* YYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7D32E64F1D81002E0043A8D5 /* AttributeScrollView.h */,
+				7D32E6501D81002E0043A8D5 /* AttributeScrollView.m */,
+				7D32E6511D81002E0043A8D5 /* BaseAttributeVC.h */,
+				7D32E6521D81002E0043A8D5 /* BaseAttributeVC.m */,
+			);
+			path = YYLabel;
+			sourceTree = "<group>";
+		};
+		7D32E6531D81002E0043A8D5 /* YYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7D32E6541D81002E0043A8D5 /* YYTextViewScrollView.h */,
+				7D32E6551D81002E0043A8D5 /* YYTextViewScrollView.m */,
+				7D32E6561D81002E0043A8D5 /* YYTextViewVC.h */,
+				7D32E6571D81002E0043A8D5 /* YYTextViewVC.m */,
+				7D32E6581D81002E0043A8D5 /* YYTextViewView.h */,
+				7D32E6591D81002E0043A8D5 /* YYTextViewView.m */,
+			);
+			path = YYTextView;
+			sourceTree = "<group>";
+		};
+		7D32E6661D8100BA0043A8D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7D32E66B1D8100E70043A8D5 /* EmoticonQQ.bundle */,
+				7D32E66C1D8100E70043A8D5 /* EmoticonWeibo.bundle */,
+				7D32E6671D8100C20043A8D5 /* Utility.h */,
+				7D32E6681D8100C20043A8D5 /* Utility.m */,
+				7D32E6701D8100E70043A8D5 /* AppUtility.h */,
+				7D32E6711D8100E70043A8D5 /* AppUtility.m */,
+				7D32E6691D8100C20043A8D5 /* UtilsMacro.h */,
+				7D32E66F1D8100E70043A8D5 /* AppMacro.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7D32E6731D81021C0043A8D5 /* TTTAtributeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7D32E6741D81021C0043A8D5 /* DetailVC.h */,
+				7D32E6751D81021C0043A8D5 /* DetailVC.m */,
+				7D32E6761D81021C0043A8D5 /* TTTLabelScrollView.h */,
+				7D32E6771D81021C0043A8D5 /* TTTLabelScrollView.m */,
+			);
+			name = TTTAtributeLabel;
+			path = Common/TTTAtributeLabel;
+			sourceTree = "<group>";
+		};
+		8142FF47C4AAC11869DC1107 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168CDDD719081D789E365C7B /* Pods-AttributeTextDemo.debug.xcconfig */,
+				1E0BC8F28F1B91E3572A592C /* Pods-AttributeTextDemo.release.xcconfig */,
+				393D7AC870E0436B9A18A39B /* Pods-AttributeTextDemoTests.debug.xcconfig */,
+				18286EC2D6E5A288C56E16C7 /* Pods-AttributeTextDemoTests.release.xcconfig */,
+				239D2BEC62196461EBD1CC53 /* Pods-AttributeTextDemoUITests.debug.xcconfig */,
+				46AF61987858B516BDE2835B /* Pods-AttributeTextDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D32E6421D80FE6A0043A8D5 /* Build configuration list for PBXNativeTarget "AttributeTextDemo" */;
 			buildPhases = (
+				E991CC34D4A3A7605D1F11D7 /* 📦 Check Pods Manifest.lock */,
 				7D32E6111D80FE6A0043A8D5 /* Sources */,
 				7D32E6121D80FE6A0043A8D5 /* Frameworks */,
 				7D32E6131D80FE6A0043A8D5 /* Resources */,
+				4A37A3F01E970C7FABAA6DB8 /* 📦 Embed Pods Frameworks */,
+				DEA72B6C4A04B65D2E1EC6B0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D32E6451D80FE6A0043A8D5 /* Build configuration list for PBXNativeTarget "AttributeTextDemoTests" */;
 			buildPhases = (
+				AF9023962E51280BA2D9E3C1 /* 📦 Check Pods Manifest.lock */,
 				7D32E62A1D80FE6A0043A8D5 /* Sources */,
 				7D32E62B1D80FE6A0043A8D5 /* Frameworks */,
 				7D32E62C1D80FE6A0043A8D5 /* Resources */,
+				64FA060243A8E07FBD73E346 /* 📦 Embed Pods Frameworks */,
+				7914874A784B436498D2AC38 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D32E6481D80FE6A0043A8D5 /* Build configuration list for PBXNativeTarget "AttributeTextDemoUITests" */;
 			buildPhases = (
+				400D67C784C6846C5271D034 /* 📦 Check Pods Manifest.lock */,
 				7D32E6351D80FE6A0043A8D5 /* Sources */,
 				7D32E6361D80FE6A0043A8D5 /* Frameworks */,
 				7D32E6371D80FE6A0043A8D5 /* Resources */,
+				AFE2BE60E72E66A7B535CD0F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +358,7 @@
 				TargetAttributes = {
 					7D32E6141D80FE6A0043A8D5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PDTN934LS2;
 					};
 					7D32E62D1D80FE6A0043A8D5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +397,10 @@
 			files = (
 				7D32E6281D80FE6A0043A8D5 /* LaunchScreen.storyboard in Resources */,
 				7D32E6251D80FE6A0043A8D5 /* Assets.xcassets in Resources */,
+				7D32E66E1D8100E70043A8D5 /* EmoticonWeibo.bundle in Resources */,
 				7D32E6231D80FE6A0043A8D5 /* Main.storyboard in Resources */,
+				7D32E66D1D8100E70043A8D5 /* EmoticonQQ.bundle in Resources */,
+				7D32E64C1D8100100043A8D5 /* zuqiu.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +420,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		400D67C784C6846C5271D034 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A37A3F01E970C7FABAA6DB8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttributeTextDemo/Pods-AttributeTextDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FA060243A8E07FBD73E346 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttributeTextDemoTests/Pods-AttributeTextDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7914874A784B436498D2AC38 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttributeTextDemoTests/Pods-AttributeTextDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9023962E51280BA2D9E3C1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE2BE60E72E66A7B535CD0F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttributeTextDemoUITests/Pods-AttributeTextDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA72B6C4A04B65D2E1EC6B0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttributeTextDemo/Pods-AttributeTextDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E991CC34D4A3A7605D1F11D7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D32E6111D80FE6A0043A8D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D32E6781D81021C0043A8D5 /* DetailVC.m in Sources */,
+				7D32E6721D8100E70043A8D5 /* AppUtility.m in Sources */,
+				7D32E65E1D81002E0043A8D5 /* YYTextViewView.m in Sources */,
 				7D32E6201D80FE6A0043A8D5 /* ViewController.m in Sources */,
+				7D32E65B1D81002E0043A8D5 /* BaseAttributeVC.m in Sources */,
 				7D32E61D1D80FE6A0043A8D5 /* AppDelegate.m in Sources */,
+				7D32E65C1D81002E0043A8D5 /* YYTextViewScrollView.m in Sources */,
+				7D32E65A1D81002E0043A8D5 /* AttributeScrollView.m in Sources */,
+				7D32E66A1D8100C20043A8D5 /* Utility.m in Sources */,
+				7D32E6791D81021C0043A8D5 /* TTTLabelScrollView.m in Sources */,
 				7D32E61A1D80FE6A0043A8D5 /* main.m in Sources */,
+				7D32E65D1D81002E0043A8D5 /* YYTextViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,28 +700,39 @@
 		};
 		7D32E6431D80FE6A0043A8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168CDDD719081D789E365C7B /* Pods-AttributeTextDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AttributeTextDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = AttributeTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flowyears.com.AttributeTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		7D32E6441D80FE6A0043A8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0BC8F28F1B91E3572A592C /* Pods-AttributeTextDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AttributeTextDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = AttributeTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flowyears.com.AttributeTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		7D32E6461D80FE6A0043A8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393D7AC870E0436B9A18A39B /* Pods-AttributeTextDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AttributeTextDemoTests/Info.plist;
@@ -447,6 +745,7 @@
 		};
 		7D32E6471D80FE6A0043A8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18286EC2D6E5A288C56E16C7 /* Pods-AttributeTextDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AttributeTextDemoTests/Info.plist;
@@ -459,6 +758,7 @@
 		};
 		7D32E6491D80FE6A0043A8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239D2BEC62196461EBD1CC53 /* Pods-AttributeTextDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AttributeTextDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +770,7 @@
 		};
 		7D32E64A1D80FE6A0043A8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46AF61987858B516BDE2835B /* Pods-AttributeTextDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AttributeTextDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +799,7 @@
 				7D32E6441D80FE6A0043A8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D32E6451D80FE6A0043A8D5 /* Build configuration list for PBXNativeTarget "AttributeTextDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +808,7 @@
 				7D32E6471D80FE6A0043A8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D32E6481D80FE6A0043A8D5 /* Build configuration list for PBXNativeTarget "AttributeTextDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +817,7 @@
 				7D32E64A1D80FE6A0043A8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
